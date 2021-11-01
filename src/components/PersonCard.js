@@ -9,8 +9,8 @@ const PersonCard = (props) => {
 
     return (
         <div>
-            <h1>{props.lastName}, {props.firstName}</h1>
-            <p>Hair Color : {props.hairColor}</p>
+            <h1>{lastName}, {firstName}</h1>
+            <p>Hair Color : {hairColor}</p>
             <p>Age : {ageUp}</p>
             <button onClick={ handleClick }>Birthday Button for {firstName} {lastName}</button>
         </div>
